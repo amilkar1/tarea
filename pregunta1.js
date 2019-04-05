@@ -1,5 +1,5 @@
 function sumaMatriz(n){
-  var matriz=[[0,1,1,2],[0,5,0,0],[2,1,1,3]];
+  var matriz=[[0,1,1,2],[0,5,0,0],[2,0,3,3]];
   var suma=0;
   for(var i=0; i<3; i++){
     for(var j=0; j<4; j++){
@@ -15,4 +15,4 @@ function sumaMatriz(n){
   }
 return suma;
 }
-console.log (sumaMatriz([[0,1,1,2],[0,5,0,0],[2,1,1,3]]));
+console.log (sumaMatriz([[0,1,1,2],[0,5,0,0],[2,0,3,3]]));
